@@ -1,7 +1,8 @@
-.App {
-  margin: 0px 8px 0px 8px ;  
-  padding: 0px 0px 0px 0px ;
-  background-color:red;
-  height: 1000vh;
 
+body{
+  background-color:#f6f6f6;
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+  max-width: 1920px;
 }

@@ -4,8 +4,11 @@ import './style.css';
 function Hero() {
   return (
     <div className="hero">
-      <h2>Who I Am</h2>
-      <p>Share your story, background, and passion for technology.</p>
+      <img src=""></img>
+
+      <h1>Systems and Network Technician</h1>
+      <button>More Info</button>
+
     </div>
   );
 }

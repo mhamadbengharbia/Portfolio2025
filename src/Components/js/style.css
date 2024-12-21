@@ -1,4 +1,70 @@
-.hero{
+/*Header navbar*/
+.navbar{
+    height: 10vh;
     background-color:rgb(241, 240, 239, 1);
-    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 6% 0% 6%;
+    align-items: center;
+    font-family: Poppins ,sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: rgb(55, 55, 55);
+    letter-spacing: 0.8px;
+    
 }
+.nav-1{
+display: flex;
+gap: 12px;
+}
+.btn-1 {
+    padding: 12px 32px;
+    border: 2px solid #f6f6f6;
+    cursor: pointer;
+    position:relative;
+    overflow:hidden;
+    border-radius: 25%;
+   }
+  
+  .btn-1:before {
+    content: "";
+    position: absolute;
+    height: 150px;
+    width: 50px;
+    background : #fff;
+    left: -55px;
+    top: -40px;
+    transform: rotate(37deg);
+    transition: all .3s;
+    opacity: 0.3;
+  }
+  
+  .btn-1:hover:before {
+    left:95%;
+  }
+
+.nav-2{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    text-decoration: none;
+
+
+}
+.nav-2 a{
+    color: rgb(55, 55, 55);
+    text-decoration: none;
+    
+
+}
+
+.nav-2 a:hover{
+    text-decoration: underline;
+    
+
+}
+
+
+
+
+ 
