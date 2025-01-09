@@ -4,9 +4,17 @@
   "private": true,
   "dependencies": {
     "cra-template": "1.2.0",
+    "flubber": "^0.4.2",
+    "framer-motion": "^11.15.0",
+    "infinite-react-carousel": "^1.2.11",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-scripts": "5.0.1",
+    "react-slick": "^0.30.3",
+    "slick-carousel": "^1.8.1",
+    "swiper": "^11.1.15",
+    "three": "^0.134.0",
+    "vanta": "^0.5.24",
     "web-vitals": "^4.2.4"
   },
   "scripts": {
